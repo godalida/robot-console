@@ -2,7 +2,7 @@
 This file contains the logic to handle input commands 
 and route them to the appropriate robot methods.
 """
-import logger
+import logging
 
 class CommandProcessor:
     def __init__(self, robot):
@@ -18,7 +18,7 @@ class CommandProcessor:
                 x, y, f = parts[1].split(',')
                 self.robot.place(int(x), int(y), f)
             except ValueError as e:
-                logger.error(f"Invalid PLACE command: {e}")
+                logging.error(f"Invalid PLACE command: {e}")
         elif parts[0] == 'MOVE':
             self.robot.move()
         elif parts[0] == 'LEFT':
