@@ -7,8 +7,8 @@ This project is a console application that simulates a toy robot moving on a 5x5
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
-- [Project Structure](#project-structure)
 - [How to run tests](#how-to-run-tests)
+- [Project Structure](#project-structure)
 
 ## Requirements
 - Python 3.x
@@ -25,6 +25,11 @@ cd robot-console
 ## Running the Application
 ```bash
 python toy_robot.py
+```
+
+## How to run tests
+```bash
+python -m unittest tests.test_toy_robot
 ```
 
 ## Project Structure
@@ -44,10 +49,4 @@ toy_robot_project/
 ├── toy_robot.py                   # Entry point for running the application
 ```
 
-
-
-## How to run tests
-```bash
-python -m unittest tests.test_toy_robot
-```
 
