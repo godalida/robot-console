@@ -7,8 +7,8 @@ This project is a console application that simulates a toy robot moving on a 5x5
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
-- [Project Structure](#example-usage)
-- [How to run tests](#testing)
+- [Project Structure](#project-structure)
+- [How to run tests](#how-to-run-tests)
 
 ## Requirements
 - Python 3.x
