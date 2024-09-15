@@ -48,6 +48,6 @@ toy_robot_project/
 
 ## How to run tests
 ```bash
-python -m unittest test_toy_robot.py
+python -m unittest tests.test_toy_robot
 ```
 
