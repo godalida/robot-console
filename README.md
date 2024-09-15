@@ -7,7 +7,7 @@ This project is a console application that simulates a toy robot moving on a 5x5
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
-- [Folder Structure](#example-usage)
+- [Project Structure](#example-usage)
 - [How to run tests](#testing)
 
 ## Requirements
